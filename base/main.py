@@ -56,9 +56,6 @@ ALGORITMOS = {
     "b": ("Dijkstra  (só g)", dijkstra, {}),
     "c": ("Guloso    (só h)", guloso, {}),
     "d": ("A*        (g + h)", a_estrela, {}),
-    "e": ("A* com heurística INFLADA x10", a_estrela, {"h": mp.manhattan_inflada}),
-    "f": ("A* com DESEMPATE", a_estrela, {"h": mp.manhattan_desempate}),
-    "g": ("A* com h = 0  (vira Dijkstra)", a_estrela, {"h": mp.zero}),
 }
 
 
